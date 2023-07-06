@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url(./imagenes/Background.jpg);
+    background-image: src="(./imagenes/Background.jpg)";
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
