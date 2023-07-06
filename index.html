@@ -39,20 +39,17 @@
               <a class="nav-link" href="#about-me">Sobre mi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Proyectos</a>
+              <a class="nav-link" href="#proyectos">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Entretenimiento</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <div class="opacidad">
-      <h1 class="bienvenida">Bienvenido/a a mi portfolio</h1>
+      <h1 class="bienvenida d-flex">Bienvenido/a a mi portfolio</h1>
       <h2 class="presentacion">Soy Víctor, Web Developer</h2>
       <p class="breve-descripcion text-center">Soy nuevo en el mundo IT, me apasiona la tecnología y los videojuegos. Estoy en busca de perfeccionar mis habilidades de programación y adquirir experiencia laboral para cambiar mi calidad de vida y a su vez prestar mi ayuda para concretar nuevos proyectos.</p>
     </div>
@@ -88,13 +85,38 @@
         <p class="about-me text-center">Soy una persona comprometida y puntual, y considero que estos valores son fundamentales tanto en mi vida personal como profesional. He participado en varios proyectos que, aunque aún no he concluido, me han brindado una valiosa experiencia en el campo de la tecnología. Mi principal objetivo es mejorar mi calidad de vida y la de mi familia, y en cuanto a mi carrera, aspiro a generar creatividad y contribuir al éxito de proyectos interesantes.</p>
       </div>
     </section>
-    <section id="proyectos">
+    <section id="proyectos" class="container-fluid">
       <div class="opacidad">
         <h2 class="proyectos">Proyectos</h2>
-        <p>Página de turismo: Este es un proyecto que se me ocurrió para practicar mis habilidades, aunque aún no lo he terminado</p>
+        <div class="captura-ta container">
+          <h3 class="proyectos">Turismo Argentina</h3>
+          <img src="./imagenes/Turismo-Argentina.png" alt="pagina-turismo-argentina" class="img-fluid">
+          <p class="proyectos">Página de turismo: Este es un proyecto que se me ocurrió para practicar mis habilidades, aunque es simple, se podría mejorar en muchos aspectos.</p>
+          <h3 class="proyectos">Réplica de página web</h3>
+          <img src="./imagenes/Integrador.png" alt="pagina-integrador" class="img-fluid">
+          <p class="proyectos">Réplica a partir de una captura de una página que nos habían pedido en el curso de Codo a Codo, con la cual fuí practicando HTML, CSS, Bootstrap y Javascript</p>
+        </div>
+        <div class="container">
+          <p class="proyectos1 text-center">!Puedes ver con más detalle el código de cada página en mi perfil de GitHub¡</p>
+          <div class="row">
+            <div class="col d-flex github"><a href="https://github.com/Viprototype" target="_blank"><i class="fa-brands fa-8x fa-github pb-5"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contacto" class="container-fluid">
+      <div class="opacidad">
+        <div class="row pb-2 d-flex contacto">
+          <h2 class="contacto">Contacto</h2>
+        </div>
+        <div class="row d-flex contacto">
+          <a id="wpp" href="https://wa.me/5491125365449" target="_blank"><i class="fa-brands fa-5x pt-3 fa-whatsapp"></i></a>
+        </div> 
       </div>
     </section>
       <script src="script.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+      <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-2x fa-arrow-up flecha" style="color: #000000;"></i></button>
 </body>
 </html>
