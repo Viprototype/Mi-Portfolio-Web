@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    background-image: url(/imagenes/Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+#foto-perfil {
+    margin-right: 1rem;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+}
+
+a.nav-link, a.navbar-brand {
+    color: white;
+}
+
+a.nav-link:hover, a.navbar-brand:hover, a.nav-link:focus, a.navbar-brand:focus {
+    color:rgb(170, 170, 170);
+}
+
+div.opacidad {
+    position: relative;
+    padding: 0;
+    margin: 2rem;
+  }
+  
+  .opacidad::before {
+    content: "";
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+  }
+
+  h1.bienvenida {
+    padding-top: 2rem;
+    padding-left: 6rem;
+    font-size: 75px;
+    font-family: 'Caprasimo', cursive;
+    color: rgb(170, 170, 170);
+    opacity: 0;
+    transform: translateX(100px);
+    animation: fade-in-h1 3s ease forwards, slideLeft-h1 3s ease-in-out forwards;
+  }
+  
+  @keyframes fade-in-h1 {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideLeft-h1 {
+    0% {
+      transform: translateX(50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-5%);
+      opacity: 1;
+    }
+  }
+  
+  h2.presentacion {
+    width: 60%;
+    font-size: 55px;
+    font-family: 'Caprasimo', cursive;
+    color: rgb(170, 170, 170);
+    opacity: 0;
+    transform: translateX(100px);
+    animation: fade-in-h2 2s ease forwards, slideRight-h2 3s ease-in-out forwards;
+  }
+  
+  @keyframes fade-in-h2 {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideRight-h2 {
+    0% {
+      transform: translateX(0);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(50%);
+      opacity: 1;
+    }
+  }  
+
+  p.breve-descripcion {
+    padding-top: 2rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    color: rgb(170, 170, 170);
+    opacity: 0;
+    animation: fade-in-p 5s ease forwards;
+    }
+
+    @keyframes fade-in-p {
+        0% {
+        opacity: 0;
+    }
+        100% {
+        opacity: 1;
+    }
+  }
+  
+  #habilidades {
+    position: relative;
+    right: auto;
+    padding: 0;
+    margin: 2rem;
+  }
+  
+  #habilidades::before {
+    content: "";
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+  }
+
+  section.habilidades-blandas {
+    font-family: 'Ysabeau SC', sans-serif;
+    color: rgb(170, 170, 170);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  div.habilidades {
+    font-size: 50px;
+    justify-content: center;
+  }
+
+  div.descripcion-habilidad {
+    font-size: 22px;
+  }
+
+  .habilidades .logo-habilidad:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  h2.about-me {
+    margin: 1rem;
+    padding-top: 2rem;
+    width: 60%;
+    font-size: 55px;
+    font-family: 'Caprasimo', cursive;
+    color: rgb(170, 170, 170);
+  }
+
+  p.about-me {
+    padding-top: 2rem;
+    padding-right: 5rem;
+    padding-bottom: 4rem;
+    padding-left: 5rem;
+    font-size: 35px;
+    font-family: 'Agdasima', sans-serif;
+    color: rgb(170, 170, 170);
+  }
+
+  h2.proyectos {
+    width: 60%;
+    padding-top: 2rem;
+    padding-left: 6rem;
+    font-size: 55px;
+    font-family: 'Caprasimo', cursive;
+    color: rgb(170, 170, 170);
+  }
