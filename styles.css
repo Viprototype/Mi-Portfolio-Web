@@ -280,19 +280,19 @@ div.opacidad {
     opacity: 0;
   }
 
- @media screen and (max-width: 480px) {
+ @media screen and (max-width: 320px) {
     h1.bienvenida {
       justify-content: center;
       padding-top: 2rem;
-      padding-left: 6rem;
-      font-size: 45px;
+      padding-left: 3rem;
+      font-size: 30px;
       font-family: 'Caprasimo', cursive;
       color: rgb(170, 170, 170);
     }
 
     h2.presentacion {
-      width: 60%;
-      font-size: 35px;
+      width: 70%;
+      font-size: 25px;
       font-family: 'Caprasimo', cursive;
       color: rgb(170, 170, 170);
     }
@@ -363,9 +363,9 @@ div.opacidad {
       p.proyectos1 {
         font-weight: bolder;
         padding-top: 1rem;
-        padding-right: 5rem;
+        padding-right: 0;
         padding-bottom: 4rem;
-        padding-left: 5rem;
+        padding-left: 0;
         font-size: 35px;
         font-family: 'Agdasima', sans-serif;
         color: rgb(170, 170, 170);
