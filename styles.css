@@ -331,7 +331,7 @@ div.opacidad {
         width: 60%;
         padding-top: 2rem;
         padding-left: 1rem;
-        font-size: 55px;
+        font-size: 35px;
         font-family: 'Caprasimo', cursive;
         color: rgb(170, 170, 170);
       }
@@ -347,10 +347,10 @@ div.opacidad {
       }
     
       h3.proyectos {
-        width: 60%;
+        width: 100%;
         padding-top: 2rem;
-        padding-left: 3rem;
-        font-size: 45px;
+        padding-left: 1rem;
+        font-size: 25px;
         font-family: 'Caprasimo', cursive;
         color: rgb(170, 170, 170);
       }
