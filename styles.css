@@ -25,6 +25,10 @@ a.nav-link:hover, a.navbar-brand:hover, a.nav-link:focus, a.navbar-brand:focus {
     color:rgb(170, 170, 170);
 }
 
+button.navbar-toggler {
+  background-image: linear-gradient(to right, #682323, #ff1f1f);
+}
+
 div.opacidad {
     position: relative;
     padding: 0;
